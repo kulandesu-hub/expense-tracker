@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.inc-exp {
+  display: flex;
+  justify-content: space-between;
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+#list li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+}
